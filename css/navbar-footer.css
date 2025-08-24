@@ -1,0 +1,97 @@
+    nav {
+      position: relative;
+      background-color: #000000;
+      padding: 20px 30px;
+      box-shadow: 0 4px 10px #00000080;
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo img {
+      width: 100px;
+      height: auto;
+    }
+
+    .hamburgericon {
+      display: none;
+      cursor: pointer;
+    }
+
+    .hamburgericon div {
+      width: 25px;
+      height: 3px;
+      background:#F4F1F8;
+      margin: 4px 0;
+    }
+
+    .links {
+      display: flex;
+      gap: 2px;
+      align-items: center;
+    }
+
+    .links .logoutbtn {
+      font-size: 1rem;
+      background-color: #EC8D39;
+      border-radius: 50px;
+      width: 100%;
+      padding: 14px;
+      border: none;
+      color: #F4F1F8;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .links .logoutbtn:hover {
+      transition: ease 0.6s;
+      color: #000000;
+    }
+
+    .links a {
+      color: #F4F1F8;
+      text-decoration: none;
+      padding: 20px;
+    }
+
+    .links a:hover {
+      transition: ease 0.6s;
+      color: #EC8D39;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .vertical {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      background: #000000;
+      color:#F4F1F8;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #F4F1F8;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 1rem; 
+    }
+
+    footer a:hover {
+      color: #EC8D39;
+      transition: ease 0.3s;
+    }
+
+    
